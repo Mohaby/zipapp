@@ -64,7 +64,7 @@ python app.py
 - 🔲 **Integration with campus maps and event systems**
 
 
-📸 Screenshots
+# Screenshots
 <img width="657" height="710" alt="Screenshot 2025-10-10 at 12 43 37 AM" src="https://github.com/user-attachments/assets/6a16645a-206c-4a4a-8546-4d15e6765e8b" />
 <img width="657" height="565" alt="Screenshot 2025-10-10 at 12 42 54 AM" src="https://github.com/user-attachments/assets/7851c224-1274-40a4-880d-bf0f197d1ef3" />
 <img width="657" height="710" alt="Screenshot 2025-10-10 at 12 43 41 AM" src="https://github.com/user-attachments/assets/cddc17fe-6252-4582-86ce-bc1e45b60aed" />
