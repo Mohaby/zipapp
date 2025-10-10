@@ -1,38 +1,71 @@
-# zipapp
-The Zip application facilitates on-demand transportation services via golf carts to consumers, particularly in situations where venues are crowded and not easily accessible by car. The app includes separate portals for both riders and drivers. Riders can easily order transportation, specify their pickup location, make payments, and travel to their desired drop-off point. Meanwhile, drivers are connected with riders and receive information on their pickup location. Upon pickup, drivers receive GPS directions to the rider's destination and payment is processed to their checking account after the ride is completed. Riders are prompted to provide feedback upon completion of the ride.
 
-# Overview
-ZIPAPP connects passengers and drivers through a cross-platform Flutter app backed by a Flask (Python) server, a C++ routing engine, and an SQL database.
-It was developed as a senior design project at Auburn University to solve a real mobility challenge during crowded campus events.
+
+# 🚗 **ZIPAPP**
+### *Game Day Golf Cart Ride-Sharing App*
+
+A **cross-platform, Uber-style golf-cart transportation system** designed for  
+
+**game days and crowded campus events** — when parking is distant and roads are closed.
+
+
+Built to help **students, fans, and visitors** request quick, reliable rides directly from their phones.
+
+---
+
+</div>
+
+## 🎯 What It Does
+
+ZIPAPP connects **riders** and **drivers** through two intuitive portals — providing  
+real-time tracking, optimized routing, and smooth communication even when traffic is restricted.
+
+> “When stadiums are packed and walking isn’t an option, ZIPAPP bridges the last mile from far-away parking to the game.”
+
+---
+
+## 🧠 Overview
+
+ZIPAPP is a **full-stack, cross-platform project** built with:
+- **Flutter (Dart)** for the frontend  
+- **Flask (Python)** API backend  
+- **C++ routing engine** for path optimization  
+- **SQL database** for trip and user data  
+
+Developed as a **Senior Design Project at Auburn University**, ZIPAPP solves real mobility challenges faced during large campus events.
+
+---
 
 ## 🧰 Tech Stack
 
-| **Layer**            | **Technologies** |
-|----------------------|------------------|
-| **Frontend / Mobile** | Flutter (Dart), Google Maps API, Firebase Auth |
-| **Backend**           | Python (Flask REST API), C++ routing & scheduling engine |
-| **Database**          | SQLite / MySQL (via SQLAlchemy ORM) |
-| **Tools & CI/CD**     | GitHub Actions, Firebase Hosting, Agile Development |
-| **Version Control**   | Git & GitHub Collaboration |
+| Layer | Technologies |
+|-------|---------------|
+| **Frontend** | Flutter (Dart), Firebase, Google Maps API |
+| **Backend** | Flask (Python), C++ routing service |
+| **Database** | SQLAlchemy ORM (SQLite / MySQL) |
+| **Tools & CI/CD** | GitHub Actions, Firebase Hosting, Agile Development |
+
+---
 
 ## 🚀 Key Features
 
-- 🎯 **Game Day Navigation:** Optimized for blocked roads and traffic reroutes during large campus events.  
-- 🛺 **On-Demand Golf Cart Rides:** Passengers request rides through the mobile app.  
-- 👨‍✈️ **Driver Interface:** Accept or decline ride requests and view optimized pickup routes.  
-- 🔒 **Secure Login:** Firebase authentication for both passengers and drivers.  
-- 💳 **Payment Integration (WIP):** Stripe, Google Pay, and Apple Pay support in progress.  
-- 🗺️ **Real-Time Location Tracking:** Google Maps API for live driver and rider positions.  
-- ⚡ **Routing Optimization:** C++ and Python algorithms compute the fastest path around restricted zones.  
-- 🌐 **Multi-Platform:** Runs on Android, iOS, macOS, Windows, and Web using Flutter.  
+- 🧭 Real-time GPS tracking and optimized routing  
+- 👥 Dedicated rider and driver dashboards  
+- 💳 In-app payment integration (Stripe / Google Pay in progress)  
+- 🔒 Secure Firebase authentication  
+- 🌐 Multi-platform support (Android, iOS, Web, Desktop)  
+- 🏟️ Specifically optimized for **Auburn University game days**
 
+---
 
-# System Architecture
+## 🏗️ **Architecture**  
+
+```mermaid
 flowchart LR
-    A[Flutter Mobile App] -->|REST API| B[Flask Backend]
+    A[Flutter App] -->|REST API| B[Flask Server]
     B -->|SQL Queries| C[(Database)]
-    B -->|Compute Routes| D[C++ Routing Engine]
-    A -->|Auth| E[Firebase Services]
+    B -->|Routing Data| D[C++ Engine]
+    A -->|Firebase Auth| E[Firebase Services]
+```
 
 
 ## 📦 Deliverables
@@ -82,5 +115,5 @@ python app.py
 <img width="576" height="543" alt="Screenshot 2025-10-10 at 12 44 08 AM" src="https://github.com/user-attachments/assets/fe88b13a-e943-420d-8c67-71dd0d8ed7ed" />
 <img width="576" height="509" alt="Screenshot 2025-10-10 at 12 44 17 AM" src="https://github.com/user-attachments/assets/0038d8c0-0c62-414b-b7fc-a0a55cae7a6a" />
 
-📜 License
+# 📜 **License**
 Developed for educational purposes as part of Auburn University’s Software Engineering Senior Design Project.
