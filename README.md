@@ -5,7 +5,7 @@ The Zip application facilitates on-demand transportation services via golf carts
 ZIPAPP connects passengers and drivers through a cross-platform Flutter app backed by a Flask (Python) server, a C++ routing engine, and an SQL database.
 It was developed as a senior design project at Auburn University to solve a real mobility challenge during crowded campus events.
 
-⚙️ Tech Stack
+# Tech Stack
 Layer	   Technologies
 Frontend / Mobile	|  Flutter (Dart), Google Maps API, Firebase Auth
 Backend	          |  Python (Flask REST API), C++ routing and scheduling engine
@@ -13,7 +13,7 @@ Database	        |  SQLite / MySQL (via SQLAlchemy ORM)
 Tools & CI/CD	    |  GitHub Actions, Firebase Hosting, Agile Development
 Version Control	  |  Git & GitHub Collaboration
 
-🚀 Key Features
+# Key Features
 🧭 Game Day Navigation: Optimized for blocked roads and traffic reroutes during large campus events.
 🚘 On-Demand Golf Cart Rides: Passengers request rides through the mobile app.
 👨‍✈️ Driver Interface: Accept or decline ride requests and view optimized pickup routes.
@@ -23,7 +23,7 @@ Version Control	  |  Git & GitHub Collaboration
 ⚡ Routing Optimization: C++ and Python algorithms compute the fastest available path around restricted zones.
 🌐 Multi-Platform: Runs on Android, iOS, macOS, Windows, and Web using Flutter.
 
-🧩 System Architecture
+# System Architecture
 flowchart LR
     A[Flutter Mobile App] -->|REST API| B[Flask Backend]
     B -->|SQL Queries| C[(Database)]
@@ -31,18 +31,13 @@ flowchart LR
     A -->|Auth| E[Firebase Services]
 
 
-📄 Deliverables
+# Deliverables
 File	     Description
 Architectural Spike Presentation-2.pptx	|  App architecture and system overview
 Cycle 1–3 Reports                       |	 Agile sprint documentation and retrospectives
 Developer Manual.docx	                  |  Setup, build, and deployment guide
 User Manual.docx	                      |  Instructions for passengers and drivers
 Senior Design Architectural Spike.pdf   |  Final design document summary
-
-🧰 Setup & Installation
-# Clone the repository
-git clone https://github.com/Mohaby/zipapp.git
-cd zipapp
 
 # Install dependencies
 flutter pub get
