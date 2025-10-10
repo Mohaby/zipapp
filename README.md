@@ -5,23 +5,27 @@ The Zip application facilitates on-demand transportation services via golf carts
 ZIPAPP connects passengers and drivers through a cross-platform Flutter app backed by a Flask (Python) server, a C++ routing engine, and an SQL database.
 It was developed as a senior design project at Auburn University to solve a real mobility challenge during crowded campus events.
 
-# Tech Stack
-Layer	            |   Technologies
-Frontend / Mobile	|  Flutter (Dart), Google Maps API, Firebase Auth
-Backend	            |  Python (Flask REST API), C++ routing and scheduling engine
-Database	        |  SQLite / MySQL (via SQLAlchemy ORM)
-Tools & CI/CD	    |  GitHub Actions, Firebase Hosting, Agile Development
-Version Control	  |   Git & GitHub Collaboration
+## 🧰 Tech Stack
 
-# Key Features
-🧭 Game Day Navigation: Optimized for blocked roads and traffic reroutes during large campus events.
-🚘 On-Demand Golf Cart Rides: Passengers request rides through the mobile app.
-👨‍✈️ Driver Interface: Accept or decline ride requests and view optimized pickup routes.
-🔐 Secure Login: Firebase authentication for both passengers and drivers.
-💳 Payment Integration (WIP): Stripe, Google Pay, and Apple Pay support in progress.
-🗺️ Real-Time Location Tracking: Google Maps API for live driver and rider positions.
-⚡ Routing Optimization: C++ and Python algorithms compute the fastest available path around restricted zones.
-🌐 Multi-Platform: Runs on Android, iOS, macOS, Windows, and Web using Flutter.
+| **Layer**            | **Technologies** |
+|----------------------|------------------|
+| **Frontend / Mobile** | Flutter (Dart), Google Maps API, Firebase Auth |
+| **Backend**           | Python (Flask REST API), C++ routing & scheduling engine |
+| **Database**          | SQLite / MySQL (via SQLAlchemy ORM) |
+| **Tools & CI/CD**     | GitHub Actions, Firebase Hosting, Agile Development |
+| **Version Control**   | Git & GitHub Collaboration |
+
+## 🚀 Key Features
+
+- 🎯 **Game Day Navigation:** Optimized for blocked roads and traffic reroutes during large campus events.  
+- 🛺 **On-Demand Golf Cart Rides:** Passengers request rides through the mobile app.  
+- 👨‍✈️ **Driver Interface:** Accept or decline ride requests and view optimized pickup routes.  
+- 🔒 **Secure Login:** Firebase authentication for both passengers and drivers.  
+- 💳 **Payment Integration (WIP):** Stripe, Google Pay, and Apple Pay support in progress.  
+- 🗺️ **Real-Time Location Tracking:** Google Maps API for live driver and rider positions.  
+- ⚡ **Routing Optimization:** C++ and Python algorithms compute the fastest path around restricted zones.  
+- 🌐 **Multi-Platform:** Runs on Android, iOS, macOS, Windows, and Web using Flutter.  
+
 
 # System Architecture
 flowchart LR
@@ -31,13 +35,16 @@ flowchart LR
     A -->|Auth| E[Firebase Services]
 
 
-# Deliverables
-File	     Description
-Architectural Spike Presentation-2.pptx	|  App architecture and system overview
-Cycle 1–3 Reports                       |	 Agile sprint documentation and retrospectives
-Developer Manual.docx	                  |  Setup, build, and deployment guide
-User Manual.docx	                      |  Instructions for passengers and drivers
-Senior Design Architectural Spike.pdf   |  Final design document summary
+## 📦 Deliverables
+
+| **File** | **Description** |
+|-----------|-----------------|
+| **Architectural Spike Presentation-2.pptx** | App architecture and system overview |
+| **Cycle 1–3 Reports** | Agile sprint documentation and retrospectives |
+| **Developer Manual.docx** | Setup, build, and deployment guide |
+| **User Manual.docx** | Instructions for passengers and drivers |
+| **Senior Design Architectural Spike.pdf** | Final design document summary |
+
 
 # Install dependencies
 flutter pub get
@@ -49,11 +56,13 @@ Backend setup:
 cd backend
 python app.py
 
-🏗️ Future Enhancements
-✅ Integrate live payment processing
-✅ Implement driver analytics and performance dashboard
-🔲 Machine-learning route prediction for dynamic traffic rerouting
-🔲 Integration with campus maps and event systems
+## 🏗️ Future Enhancements
+
+- ✅ **Integrate live payment processing**
+- ✅ **Implement driver analytics and performance dashboard**
+- 🔲 **Machine-learning route prediction** for dynamic traffic rerouting
+- 🔲 **Integration with campus maps and event systems**
+
 
 📸 Screenshots
 <img width="657" height="710" alt="Screenshot 2025-10-10 at 12 43 37 AM" src="https://github.com/user-attachments/assets/6a16645a-206c-4a4a-8546-4d15e6765e8b" />
