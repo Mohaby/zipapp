@@ -6,12 +6,12 @@ ZIPAPP connects passengers and drivers through a cross-platform Flutter app back
 It was developed as a senior design project at Auburn University to solve a real mobility challenge during crowded campus events.
 
 # Tech Stack
-Layer	   Technologies
+Layer	            |   Technologies
 Frontend / Mobile	|  Flutter (Dart), Google Maps API, Firebase Auth
-Backend	          |  Python (Flask REST API), C++ routing and scheduling engine
+Backend	            |  Python (Flask REST API), C++ routing and scheduling engine
 Database	        |  SQLite / MySQL (via SQLAlchemy ORM)
 Tools & CI/CD	    |  GitHub Actions, Firebase Hosting, Agile Development
-Version Control	  |  Git & GitHub Collaboration
+Version Control	  |   Git & GitHub Collaboration
 
 # Key Features
 🧭 Game Day Navigation: Optimized for blocked roads and traffic reroutes during large campus events.
